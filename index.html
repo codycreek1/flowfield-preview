@@ -6,9 +6,9 @@
     <link rel="apple-touch-icon" href="/flowfield-preview/icons/apple-touch-icon.png" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1, viewport-fit=cover"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
     />
-    <meta name="theme-color" content="#0f172a" />
+    <meta name="theme-color" content="#f8fafc" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="FlowField" />
@@ -18,8 +18,22 @@
       content="FlowField is a field-ready app for backflow assembly testing and cross-connection control. Built for testers and water purveyors."
     />
     <title>FlowField — Backflow testing in the field</title>
-    <script type="module" crossorigin src="/flowfield-preview/assets/index-CeuA0SUj.js"></script>
-    <link rel="stylesheet" crossorigin href="/flowfield-preview/assets/index-BpgBJNxi.css">
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem('flowfield.theme') || 'system'
+          var dark =
+            t === 'dark' ||
+            (t === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)
+          if (dark) document.documentElement.classList.add('dark')
+          document.documentElement.style.colorScheme = dark ? 'dark' : 'light'
+          var meta = document.querySelector('meta[name="theme-color"]')
+          if (meta) meta.setAttribute('content', dark ? '#0b1220' : '#f8fafc')
+        } catch (e) {}
+      })()
+    </script>
+    <script type="module" crossorigin src="/flowfield-preview/assets/index-9CHVzB1_.js"></script>
+    <link rel="stylesheet" crossorigin href="/flowfield-preview/assets/index-CuOb40tf.css">
   <link rel="manifest" href="/flowfield-preview/manifest.webmanifest"></head>
   <body>
     <div id="root"></div>
