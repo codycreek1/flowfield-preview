@@ -2,7 +2,7 @@
   "customer_count": 234,
   "assembly_count": 430,
   "error_count": 0,
-  "scraped_at": "2026-09-22T17:17:05.703478+00:00",
+  "scraped_at": "2026-09-22T17:20:17.020776+00:00",
   "source_base_url": "https://valvesync.com",
   "notes": "Read-only export from customer list pages 1-8 and linked customer/assembly show/edit pages. Deduplicated by customer_id and assembly_id. Assembly fields were collected from read-only show pages and edit-form values where available; blank values indicate the source did not expose a value."
 }
