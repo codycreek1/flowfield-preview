@@ -8,7 +8,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover, interactive-widget=resizes-content"
     />
-    <meta name="theme-color" content="#f8fafc" />
+    <meta name="theme-color" content="#ffffff" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="FlowField" />
@@ -27,13 +27,15 @@
             (t === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)
           if (dark) document.documentElement.classList.add('dark')
           document.documentElement.style.colorScheme = dark ? 'dark' : 'light'
+          var chrome = dark ? '#1e293b' : '#ffffff'
+          document.documentElement.style.backgroundColor = chrome
           var meta = document.querySelector('meta[name="theme-color"]')
-          if (meta) meta.setAttribute('content', dark ? '#0b1220' : '#f8fafc')
+          if (meta) meta.setAttribute('content', chrome)
         } catch (e) {}
       })()
     </script>
-    <script type="module" crossorigin src="/flowfield-preview/assets/index-jLoGPg5R.js"></script>
-    <link rel="stylesheet" crossorigin href="/flowfield-preview/assets/index-DK_25qR5.css">
+    <script type="module" crossorigin src="/flowfield-preview/assets/index-BUnqlypE.js"></script>
+    <link rel="stylesheet" crossorigin href="/flowfield-preview/assets/index-zcoOT1qb.css">
   <link rel="manifest" href="/flowfield-preview/manifest.webmanifest"></head>
   <body>
     <div id="root"></div>
