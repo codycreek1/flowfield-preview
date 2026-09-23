@@ -8,10 +8,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover, interactive-widget=resizes-content"
     />
-    <meta name="theme-color" content="#1e293b" />
-    <meta name="theme-color" content="#1e293b" media="(prefers-color-scheme: dark)" />
-    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#1e293b" media="(display-mode: standalone)" />
+    <meta name="theme-color" content="#0b1220" />
+    <meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0b1220" media="(display-mode: standalone)" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="FlowField" />
@@ -30,15 +30,15 @@
             (t === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)
           if (dark) document.documentElement.classList.add('dark')
           document.documentElement.style.colorScheme = dark ? 'dark' : 'light'
-          var chrome = dark ? '#1e293b' : '#ffffff'
+          var chrome = dark ? '#0b1220' : '#f8fafc'
           document.documentElement.style.backgroundColor = chrome
           var metas = document.querySelectorAll('meta[name="theme-color"]')
           for (var i = 0; i < metas.length; i++) metas[i].setAttribute('content', chrome)
         } catch (e) {}
       })()
     </script>
-    <script type="module" crossorigin src="/flowfield-preview/assets/index-CUY0sXS5.js"></script>
-    <link rel="stylesheet" crossorigin href="/flowfield-preview/assets/index-eu_MGb15.css">
+    <script type="module" crossorigin src="/flowfield-preview/assets/index-CnU1zuaH.js"></script>
+    <link rel="stylesheet" crossorigin href="/flowfield-preview/assets/index-BsQu21El.css">
   <link rel="manifest" href="/flowfield-preview/manifest.webmanifest"></head>
   <body>
     <div id="root"></div>
