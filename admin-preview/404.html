@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="en">
-  <head>
+  <head><script>(function(){var b="/flowfield-preview/admin-preview/",q=new URLSearchParams(window.location.search),p=q.get("__p");if(p!==null&&p.indexOf("//")!==0){window.history.replaceState(null,"",b+p.replace(/^\/+/,""));}})();</script>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/flowfield-preview/favicon.svg?v=2" />
-    <link rel="apple-touch-icon" href="/flowfield-preview/icons/apple-touch-icon.png?v=2" />
+    <link rel="icon" type="image/svg+xml" href="/flowfield-preview/admin-preview/favicon.svg" />
+    <link rel="apple-touch-icon" href="/flowfield-preview/admin-preview/icons/apple-touch-icon.png" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover"
@@ -14,17 +14,17 @@
     <meta name="theme-color" content="#0b1220" media="(display-mode: standalone)" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="FlowField Pro" />
+    <meta name="apple-mobile-web-app-title" content="Admin" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta
       name="description"
-      content="FlowField Pro is a field-ready app for backflow assembly testing. Built for testers. Purveyor portal coming soon."
+      content="FlowField Pro Admin is the operator console for customer contacts and subscription health."
     />
-    <title>FlowField Pro — Backflow testing in the field</title>
+    <title>FlowField Pro Admin</title>
     <script>
       (function () {
         try {
-          var t = localStorage.getItem('flowfield.theme') || 'system'
+          var t = localStorage.getItem('flowfield-admin.theme') || 'system'
           var dark =
             t === 'dark' ||
             (t === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)
@@ -34,12 +34,16 @@
           document.documentElement.style.backgroundColor = chrome
           var metas = document.querySelectorAll('meta[name="theme-color"]')
           for (var i = 0; i < metas.length; i++) metas[i].setAttribute('content', chrome)
+          var standalone =
+            window.matchMedia('(display-mode: standalone)').matches ||
+            window.navigator.standalone === true
+          if (standalone) document.documentElement.classList.add('ff-standalone')
         } catch (e) {}
       })()
     </script>
-    <script type="module" crossorigin src="/flowfield-preview/assets/index-CzSG8gzV.js"></script>
-    <link rel="stylesheet" crossorigin href="/flowfield-preview/assets/index-C2FM-CIT.css">
-  <link rel="manifest" href="/flowfield-preview/manifest.webmanifest"></head>
+    <script type="module" crossorigin src="/flowfield-preview/admin-preview/assets/index-Cr3fZ5fc.js"></script>
+    <link rel="stylesheet" crossorigin href="/flowfield-preview/admin-preview/assets/index-CGH67ZlR.css">
+  <link rel="manifest" href="/flowfield-preview/admin-preview/manifest.webmanifest"></head>
   <body>
     <div id="root"></div>
   </body>
