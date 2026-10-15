@@ -1,3 +1,4 @@
+/*! © 2026 FlowField Pro. All rights reserved. */
 /* Phone notifications. Loaded by the app service worker. */
 var APP_BADGE_CACHE = 'flowfield-app-badge'
 var APP_BADGE_URL = '/flowfield-app-badge'
