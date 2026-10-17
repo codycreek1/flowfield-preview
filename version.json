@@ -1,1 +1,1 @@
-{"version":"2.20261017.1312","notes":["Skip Day: pick one or more dates and tap Skip Day. Nothing gets scheduled on them, Auto Spread, Re-Optimize, Fill Gaps and Spread Tests move open stops off them, and skipped days show grey. Tap a skipped day to undo it."]}
+{"version":"2.20261017.1335","notes":["Days By City: when a city has days set, those days are kept for that city. Other cities stay off them, and Auto Spread, Spread Tests, Re-Optimize and Fill Gaps move their open stops to another day."]}
