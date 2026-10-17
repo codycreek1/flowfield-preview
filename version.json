@@ -1,1 +1,1 @@
-{"version":"2.20261017.1335","notes":["Days By City: when a city has days set, those days are kept for that city. Other cities stay off them, and Auto Spread, Spread Tests, Re-Optimize and Fill Gaps move their open stops to another day."]}
+{"version":"2.20261017.1356","notes":["Skip Day is easier to find: it now sits next to Days By City on the Route, and days with no stops show it next to Add Stop."]}
