@@ -1,1 +1,1 @@
-{"version":"2.20261017.1248","notes":["Booking texts that say blow out, sprinkler, shut off or ask to get on the list now show up in Bookings instead of being skipped."]}
+{"version":"2.20261017.1312","notes":["Skip Day: pick one or more dates and tap Skip Day. Nothing gets scheduled on them, Auto Spread, Re-Optimize, Fill Gaps and Spread Tests move open stops off them, and skipped days show grey. Tap a skipped day to undo it."]}
