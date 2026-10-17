@@ -74,7 +74,7 @@
 
       <h2>Who we are</h2>
       <p>
-        FlowField Pro is a field PWA for certified backflow testers. You use it for routes, tests,
+        FlowField Pro is a field app for certified backflow testers. You use it for routes, tests,
         city PDF send, invoicing, and optional QuickBooks Online sync.
       </p>
       <p>Contact: <a href="mailto:flowfieldpro@gmail.com">flowfieldpro@gmail.com</a></p>
@@ -84,28 +84,28 @@
         <li>The email and password you use to sign in, plus the profile you save (name, company, phone, license, templates).</li>
         <li>
           Customer, site, assembly, test, invoice, route, booking, and related field records you enter.
-          On the demo and typical installs, that book lives on your device (browser storage / IndexedDB).
+          On the demo and typical installs, that book is saved on your device.
         </li>
         <li>
-          If you connect QuickBooks Online or use billed SaaS features, a FlowField Worker may hold
-          OAuth tokens and billing entitlement so that connection can refresh. Those tokens are used
-          only to talk to that service for your account.
+          If you connect QuickBooks Online or subscribe, a FlowField server may keep your QuickBooks
+          sign-in and your subscription status so that connection stays active. That sign-in is used
+          only to talk to QuickBooks for your account.
         </li>
       </ul>
 
-      <h2>Cookies and local storage</h2>
+      <h2>Cookies and saved data</h2>
       <p>
-        The PWA uses local storage, IndexedDB, and similar browser storage to keep you signed in,
-        cache the app shell, and hold your field book. We do not use advertising cookies.
+        The app saves data in your browser to keep you signed in,
+        load the app quickly, and hold your field book. We do not use advertising cookies.
       </p>
 
       <h2>Third parties</h2>
       <ul>
         <li>
-          <strong>Intuit / QuickBooks Online</strong> — only if you connect QBO. Intuit then processes
+          <strong>Intuit / QuickBooks Online</strong> — only if you connect QuickBooks. Intuit then processes
           the invoice data you choose to sync, under Intuit’s terms.
         </li>
-        <li><strong>Stripe</strong> — if you subscribe to FlowField Pro SaaS billing.</li>
+        <li><strong>Stripe</strong> — if you subscribe to FlowField Pro.</li>
         <li>
           <strong>Email providers</strong> (for example Resend or Postmark) — when you send a city or
           purveyor test report from the app.
@@ -116,7 +116,7 @@
       <h2>Deletion</h2>
       <p>
         Email <a href="mailto:flowfieldpro@gmail.com">flowfieldpro@gmail.com</a> and ask us to delete your
-        account or any Worker-held token. On-device data can also be cleared from the browser or by
+        account or disconnect any QuickBooks sign-in we keep for you. On-device data can also be cleared from the browser or by
         wiping the demo book on that device.
       </p>
 
