@@ -1,1 +1,1 @@
-{"version":"2.20261018.1738","notes":["Home lists no longer stop at 5. Tap Show All to see every reminder, winterization, repair, overdue assembly, unpaid invoice and booking request right there.","The Home Winterization count now matches the list: everyone who still needs a slot plus everyone scheduled."]}
+{"version":"2.20261018.1829","notes":["The Winterize tile on Home now reads Need A Slot, with an orange snowflake, because it counts the winterizations that still need a day."]}
