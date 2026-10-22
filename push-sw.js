@@ -141,6 +141,8 @@ self.addEventListener('notificationclick', (event) => {
         var client = windows[i]
         if (!client.url.startsWith(scope)) continue
         await client.focus()
+        // Tapped a notification: pull the newest book now (Sent Stops, Activity).
+        if (typeof client.postMessage === 'function') client.postMessage({ type: 'flowfield-push-open' })
         if (target && typeof client.navigate === 'function') {
           try {
             await client.navigate(target)
